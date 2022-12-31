@@ -41,7 +41,7 @@ opYes = () => {
   document.getElementById("cont-para").style.backgroundColor = "Hotpink";
   document.getElementById("cont-para").style.color = "White";
   document.getElementById("cont-para").innerHTML = `<h2>Yeeih, thanks <3</h2>`;
-  //document.getElementById("heart").style.visibility = `visible`;
+  document.getElementById("heart").style.visibility = `visible`;
 };
 
 window.onload = () => {
