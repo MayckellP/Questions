@@ -64,3 +64,12 @@ body {
   flex-direction: row;
   justify-content: space-around;
 }
+.cont-res {
+  text-align: center;
+  width: 100%;
+}
+.cont-res img {
+  margin-top: 50px;
+  visibility: hidden;
+  height: 200px;
+}

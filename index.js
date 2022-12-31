@@ -1,6 +1,7 @@
 var btnYes = document.getElementById("btn-yes");
 var btnNo = document.getElementById("btn-no");
 var questionBody = document.getElementById("cont-quiestion");
+var heart = document.getElementById("heart");
 var cont = 0;
 opNo = () => {
   console.log(btnNo);
@@ -40,25 +41,8 @@ opYes = () => {
   document.getElementById("cont-para").style.backgroundColor = "Hotpink";
   document.getElementById("cont-para").style.color = "White";
   document.getElementById("cont-para").innerHTML = `<h2>Yeeih, thanks <3</h2>`;
-}; /*window.onload = () => {
-  btnNo.addEventListener("mouseover", function (e) {});
-  if (btnNo.addEventListener) {
-    for (let i = 0; i < 1000; i++) {
-      let min = 50;
-      btnNo.style.position = "fixed";
-      btnNo.style.left =
-        Math.random() * (window.screen.width - min) + min + "px";
-      btnNo.style.top =
-        Math.random() * (window.screen.height - min) + min + "px";
-      if ((i = 4)) {
-        document.getElementById("cont-para").innerHTML = "";
-        document.getElementById(
-          "cont-para"
-        ).innerHTML = `<h2>No insistas y dale que si.</h2>`;
-      }
-    }
-  }
-};*/
+  //document.getElementById("heart").style.visibility = `visible`;
+};
 
 window.onload = () => {
   btnNo.addEventListener("mouseover", function (e) {
